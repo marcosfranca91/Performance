@@ -3,9 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Performance"
              x:Class="Performance.MainPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+            <Entry Text="" Placeholder="Login" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Entry Text="" Placeholder="Senha:" VerticalOptions="Center" HorizontalOptions="Center" />
+        </StackLayout>
+    </ContentPage.Content>
 
-	<Label Text="Welcome to Xamarin Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+
+
+
+    <Label Text="Login:"/>
 
 </ContentPage>
